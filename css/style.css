@@ -17,8 +17,7 @@ header{
 }    
 .row{
     background-color: hsl(42.9deg 74.4% 49.02%);
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
 }
 .col20{
     border: 1px dashed;
@@ -30,6 +29,9 @@ header{
     width: 60%;
     padding: 10px;
     text-align: center;
+}
+.login{
+    text-align: right;
 }
 .blue{
     background-color: hsl(240deg 100% 27.25%);
@@ -84,14 +86,14 @@ header{
     display: flex;
 }
 .col3{
-    width: 60%;
+    width: 40%;
     background-color: hsl(0deg 78.87% 72.16%);
     height: 400px;
     margin: 10px 0 30px 0;
     border: 1px dashed;
 }
 .col4{
-    width: 10%;
+    width: 15%;
     background-color: hsl(176.71deg 69.52% 41.18%);
     height: 400px;
     margin: 10px 0 30px 0;
