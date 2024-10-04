@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header{
+    background-color: hsl(194.74deg 53.27% 79.02%);
+    height: 60px;
+}
+.navbar{
+    padding: 10px;
+}    
+.row{
+    background-color: hsl(42.9deg 74.4% 49.02%);
+    display: flex;
+    justify-content: space-between;
+}
+.col20{
+    border: 1px dashed;
+    width: 20%;
+    padding: 10px;
+}
+.col60{
+    border: 1px dashed;
+    width: 60%;
+    padding: 10px;
+}
+
