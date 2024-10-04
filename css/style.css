@@ -87,13 +87,31 @@ header{
     width: 60%;
     background-color: hsl(0deg 78.87% 72.16%);
     height: 400px;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
     border: 1px dashed;
 }
 .col4{
     width: 10%;
     background-color: hsl(176.71deg 69.52% 41.18%);
     height: 400px;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
     border: 1px dashed white;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(159.84deg 100% 74.9%);
+    height: 50px;
+    margin-top: 20px;
+}
+.final-logo{
+    color: black;
+    background-color: hsl(350.96deg 100% 85.69%);
+    border: 1px dashed black;
+}
+.final-button{
+    color:black;
+    background-color: hsl(350.96deg 100% 85.69%);
+    border: 1px dashed black;
 }
