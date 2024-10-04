@@ -29,6 +29,7 @@ header{
     border: 1px dashed;
     width: 60%;
     padding: 10px;
+    text-align: center;
 }
 .blue{
     background-color: hsl(240deg 100% 27.25%);
@@ -43,5 +44,30 @@ header{
     margin: 50px 15%;
     border: 1px dashed;
 }
-
-
+.white{
+    background-color: white
+    width: 100%;
+    display: flex;
+}
+.col1{
+    background-color:hsl(209.6deg 100% 55.88%) ;
+    width: 60%;
+    height: 400px;
+    margin: 50px 0;
+    border: 1px dashed;
+}
+.col2{
+    background-color: hsl(349.52deg 100% 87.65%);
+    width: 40%;
+    height: 400px;
+    margin:50px 0;
+    border: 1px dashed;
+}
+.row2{
+    display: flex;
+}
+.gray{
+    background-color: hsl(0deg 0% 82.75%);
+    width: 100%;
+    display: flex;
+}
